@@ -1,0 +1,164 @@
+/* src/styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Popup Window Styles */
+.popup {
+  width: 300px;
+  padding: 20px;
+}
+
+.popup h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.popup input[type="text"],
+.popup select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.popup button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Toggle Button Styles */
+.toggle-button {
+  display: inline-block;
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.toggle-button.active {
+  background-color: #4CAF50;
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Website Selection Styles */
+.website-selection {
+  margin-top: 20px;
+}
+
+.website-selection label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.website-selection input[type="checkbox"] {
+  margin-bottom: 10px;
+}
+
+/* Face Selection Styles */
+.face-selection {
+  margin-top: 20px;
+}
+
+.face-selection label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.face-selection input[type="radio"] {
+  margin-bottom: 10px;
+}
+
+/* Settings Styles */
+.settings {
+  margin-top: 20px;
+}
+
+.settings label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.settings input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.settings input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
+.settings input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
+.settings input[type="range"]::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
+.settings input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  background-color: #ddd;
+}
+
+.settings input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  background-color: #ddd;
+}
+
+.settings input[type="range"]::-ms-track {
+  width: 100%;
+  height: 5px;
+  background-color: #ddd;
+}
+
+.settings input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: #45a049;
+}
+
+.settings input[type="range"]::-moz-range-thumb:hover {
+  background-color: #45a049;
+}
+
+.settings input[type="range"]::-ms-thumb:hover {
+  background-color: #45a049;
+}
